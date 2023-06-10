@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rubytest (0.8.1)
+    sqlite3 (1.6.3-x86_64-linux)
+    test (1.0.0)
+      rubytest
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  sqlite3
+  test
+
+BUNDLED WITH
+   2.4.13
