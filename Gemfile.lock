@@ -1,7 +1,14 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    docile (1.4.0)
     rubytest (0.8.1)
+    simplecov (0.22.0)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.12.3)
+    simplecov_json_formatter (0.1.4)
     sqlite3 (1.6.3-x86_64-linux)
     test (1.0.0)
       rubytest
@@ -10,6 +17,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  simplecov
   sqlite3
   test
 
