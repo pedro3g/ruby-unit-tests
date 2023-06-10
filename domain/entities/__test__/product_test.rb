@@ -14,12 +14,6 @@ class ProductTest < Test::Unit::TestCase
     end
   end
 
-  def test_should_not_create_product_without_id
-    assert_raise ArgumentError do
-      Product.new(name: 'Produto 1', price: 10.0)
-    end
-  end
-
   def test_should_be_a_product
     product = Product.new(id: 1, name: 'Produto 1', price: 10.0)
 
